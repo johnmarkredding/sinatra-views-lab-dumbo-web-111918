@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+  
+</head>
+<body>
+  <% date = DateTime.now %>
+  <% date_message = "#{date.strftime('%A')}, #{date.strftime('%B')} #{date.strftime('%-d')}, #{date.strftime('%Y')}" %>
+  <h1>Today</h1>
+  <p>The date is <%= date_message %></p>
+  
+</body>
+</html>
